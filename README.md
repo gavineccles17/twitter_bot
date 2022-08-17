@@ -4,8 +4,8 @@ Twitter bot for analysing sentiment
 To build docker image:
 
 ```console
- docker tag tweepy_bot:0.0.1 geccles17/tweepy_bot:latest
- docker tag tweepy_bot:0.01 geccles17/tweepy_bot:latest
+docker build -t tweepy_bot:0.01 .
+docker tag tweepy_bot:0.01 geccles17/tweepy_bot:latest
 ```
  
 To run docker image:
